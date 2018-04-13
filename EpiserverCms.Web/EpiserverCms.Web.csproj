@@ -445,6 +445,52 @@
     <Folder Include="Views\Blocks\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\blobs\0b5882b3d60a4e3cad82e87a215f4a70\0a3b3bfc98c644458cf557c98a999c1a.jpg" />
+    <Content Include="App_Data\blobs\0de0a998fdfe41a4805fc66c2a9b1ca8\73bc58da26334206b2fee86b6f7c0a65.png" />
+    <Content Include="App_Data\blobs\0de0a998fdfe41a4805fc66c2a9b1ca8\73bc58da26334206b2fee86b6f7c0a65_Thumbnail.png" />
+    <Content Include="App_Data\blobs\168f940f7a8f4027ab8119194c8a6995\78e08f306fc44c03888da8bab14fee3e.png" />
+    <Content Include="App_Data\blobs\168f940f7a8f4027ab8119194c8a6995\78e08f306fc44c03888da8bab14fee3e_Thumbnail.png" />
+    <Content Include="App_Data\blobs\29c9e1ddad224d9a9ca95ffe41c5ea36\e5b75ca76f414e5a8a7b7ca19ee41841.png" />
+    <Content Include="App_Data\blobs\29c9e1ddad224d9a9ca95ffe41c5ea36\e5b75ca76f414e5a8a7b7ca19ee41841_Thumbnail.png" />
+    <Content Include="App_Data\blobs\2b3eae2ece1346b79ea0fbb6ed7d1941\3654f95ce9c243b88a097eafa064ebda.png" />
+    <Content Include="App_Data\blobs\2b3eae2ece1346b79ea0fbb6ed7d1941\3654f95ce9c243b88a097eafa064ebda_Thumbnail.png" />
+    <Content Include="App_Data\blobs\2d650448f9a74c9dbc687c44ee705075\ad15c26de9ae4961bb2684c9fc0e3a22.jpg" />
+    <Content Include="App_Data\blobs\30342abd12f34c08ac0eeaec09d9810f\364d4d07c3fa4f8db401ce9504688eec.png" />
+    <Content Include="App_Data\blobs\36608a44738a4a0f85f823510ab45f33\7e0637ed94d34711a656619e53f487e8.png" />
+    <Content Include="App_Data\blobs\36608a44738a4a0f85f823510ab45f33\7e0637ed94d34711a656619e53f487e8_Thumbnail.png" />
+    <Content Include="App_Data\blobs\4529515352654fba972252df1c00c04b\26d4468ea1a24ddcb287b129546bc9bb.png" />
+    <Content Include="App_Data\blobs\4529515352654fba972252df1c00c04b\26d4468ea1a24ddcb287b129546bc9bb_Thumbnail.png" />
+    <Content Include="App_Data\blobs\45f7a4870136439596b9fe9c88d7920d\92c46e048fef43d6978fb9afed9f5aaa.jpg" />
+    <Content Include="App_Data\blobs\4621939e344649aba83e058d17341d6d\1a8e1607451f46508bc92399484aac6b.png" />
+    <Content Include="App_Data\blobs\4621939e344649aba83e058d17341d6d\1a8e1607451f46508bc92399484aac6b_Thumbnail.png" />
+    <Content Include="App_Data\blobs\4c373d321cb044fdb5952942a2d936fd\f08006eb5ef94dcb812559722f8de4d0.jpg" />
+    <Content Include="App_Data\blobs\4cb263d38312468d877e549b63d2ad14\5af56c1426724c0ca388e9c2ea6399d0.jpg" />
+    <Content Include="App_Data\blobs\4cb263d38312468d877e549b63d2ad14\5af56c1426724c0ca388e9c2ea6399d0_Thumbnail.jpg" />
+    <Content Include="App_Data\blobs\5849596b24064729be7c4c717ee0be5d\c101fa5b5d844132bd6e0662c89fdd91.png" />
+    <Content Include="App_Data\blobs\5849596b24064729be7c4c717ee0be5d\c101fa5b5d844132bd6e0662c89fdd91_Thumbnail.png" />
+    <Content Include="App_Data\blobs\5ea46d2782964d1bac28cea214519713\ccdc110de0d64864b73fcb36c1b77a53.png" />
+    <Content Include="App_Data\blobs\5ea46d2782964d1bac28cea214519713\ccdc110de0d64864b73fcb36c1b77a53_Thumbnail.png" />
+    <Content Include="App_Data\blobs\6af9c3daa2e341a8a05ed3466e705058\723817a183ac4ada82e87421f1bf4033.png" />
+    <Content Include="App_Data\blobs\6af9c3daa2e341a8a05ed3466e705058\723817a183ac4ada82e87421f1bf4033_Thumbnail.png" />
+    <Content Include="App_Data\blobs\6f102eea672047a0a6b56220e0c3bd9a\ecc95455fbcf46dfb11d8a8515dacf79.jpg" />
+    <Content Include="App_Data\blobs\7a9cd3435bf0416894cfad423276de82\eb53bd3a3bd442d98db93e8d2c3fc1af.png" />
+    <Content Include="App_Data\blobs\7a9cd3435bf0416894cfad423276de82\eb53bd3a3bd442d98db93e8d2c3fc1af_Thumbnail.png" />
+    <Content Include="App_Data\blobs\915bd391bf35443db7fee45e5f1e2374\36444e66f2354570b131138f502e14d4.png" />
+    <Content Include="App_Data\blobs\9589389b92fa437a9d8db47a633f8347\4744fa764ccc4f51876166ac614abe10.png" />
+    <Content Include="App_Data\blobs\a937512007e74d7c8e527919baf3a8cb\75b9ce805d054490bca033587498917a.png" />
+    <Content Include="App_Data\blobs\a937512007e74d7c8e527919baf3a8cb\75b9ce805d054490bca033587498917a_Thumbnail.png" />
+    <Content Include="App_Data\blobs\b0703089608143468df12d794a0ed56c\14a448bd83c44587807a4aab90d730b1.png" />
+    <Content Include="App_Data\blobs\b2b0b8e74e224a3e9657ba41c691e7ad\2aedf124d98949208342b1ec395f07c3.png" />
+    <Content Include="App_Data\blobs\b2b0b8e74e224a3e9657ba41c691e7ad\2aedf124d98949208342b1ec395f07c3_Thumbnail.png" />
+    <Content Include="App_Data\blobs\b7e0c2640af044a6b041413324a8c628\6598d114649f403494a5e39ae0e52e12.png" />
+    <Content Include="App_Data\blobs\b7e0c2640af044a6b041413324a8c628\6598d114649f403494a5e39ae0e52e12_Thumbnail.png" />
+    <Content Include="App_Data\blobs\be07a10a5904477e8c6ff6f69430ec51\642752e9ab914dbc8bfbff7b158c1a0b.jpg" />
+    <Content Include="App_Data\blobs\be7d20d1146d41b699da1c310edf5bb0\930770cbd8c9437da02cb1c0468945c2.jpg" />
+    <Content Include="App_Data\blobs\d66897619e03445c8f730f9a2d650b4a\7dba176dd85e4d898462b6f11111b163.png" />
+    <Content Include="App_Data\blobs\d66897619e03445c8f730f9a2d650b4a\7dba176dd85e4d898462b6f11111b163_Thumbnail.png" />
+    <Content Include="App_Data\blobs\e9a276ef9a444f5c9fe7b395c7bc810b\17183bbd93a049bb9911f4baeebeff3e.png" />
+    <Content Include="App_Data\blobs\f6592987186f4ca59366b402c9b8d94e\e6b6a9b869714ea485f3fd17c38b537f.png" />
+    <Content Include="App_Data\blobs\fbb07d35a8f2464baa18175e8d177e3b\0e06c4e11a794b428ab4f881663b88e8.png" />
     <Content Include="ClientResources\Images\icons\layoutIcons24x24.png" />
     <Content Include="ClientResources\Scripts\Editors\StringList.js" />
     <Content Include="ClientResources\Styles\LayoutIcons.css" />
@@ -513,9 +559,12 @@
     <Content Include="Static\jwplayer\video.mp4" />
     <Content Include="Views\Web.config" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\GeoLiteCity.dat" />
     <Content Include="App_Data\DefaultSiteContent.episerverdata" />
+    <Content Include="App_Data\blobs\2babfcc7284e44cd8b86f3c9e491ada4\8fbb14eb5b8948fd80cbe9b6484ad482.mp4" />
     <None Include="EPiServerLog.config" />
     <Content Include="packages.config" />
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\web.config" />
