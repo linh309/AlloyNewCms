@@ -1,12 +1,41 @@
 using System;
 using System.Web.Mvc;
 using EPiServer;
+using EPiServer.Core;
 using EPiServer.Framework.DataAnnotations;
+using EPiServer.Web.Mvc;
 using EpiserverCms.Web.Models.Pages;
 using EpiserverCms.Web.Models.ViewModels;
 
 namespace EpiserverCms.Web.Controllers
 {
+    public interface IPlainPageService
+    {
+        object GetPropertyByName(int pageId, string propName);
+    }
+
+    public class PlainPageService : IPlainPageService
+    {
+        private IContentRepository _loader;
+        public PlainPageService()
+        {
+            // _loader = loader;
+        }
+
+        public object GetPropertyByName(int pageId, string propName)
+        {
+            object value = null;
+
+            var page = _loader.Get<SitePageData>(new PageReference(pageId));
+            if (page.Property.Contains(propName))
+            {
+                value = page.Property[propName];
+            }
+
+            return value;
+        }
+    }
+
     /// <summary>
     /// Concrete controller that handles all page types that don't have their own specific controllers.
     /// </summary>
@@ -19,9 +48,16 @@ namespace EpiserverCms.Web.Controllers
     [TemplateDescriptor(Inherited = true)]
     public class DefaultPageController : PageControllerBase<SitePageData>
     {
+        IPlainPageService _IContentRenderer;
+        public DefaultPageController(IPlainPageService IContentRenderer)
+        {
+            _IContentRenderer = IContentRenderer;
+        }
+
         public ViewResult Index(SitePageData currentPage)
         {
             var model = CreateModel(currentPage);
+
             return View(string.Format("~/Views/{0}/Index.cshtml", currentPage.GetOriginalType().Name), model);
         }
 

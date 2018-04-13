@@ -5,6 +5,7 @@ using EPiServer.ServiceLocation;
 using EpiserverCms.Web.Business.Rendering;
 using EPiServer.Web.Mvc;
 using EPiServer.Web.Mvc.Html;
+using EpiserverCms.Web.Controllers;
 
 namespace EpiserverCms.Web.Business.Initialization
 {
@@ -19,7 +20,8 @@ namespace EpiserverCms.Web.Business.Initialization
             {
                 //Register custom implementations that should be used in favour of the default implementations
                 context.Services.AddTransient<IContentRenderer, ErrorHandlingContentRenderer>()
-                    .AddTransient<ContentAreaRenderer, AlloyContentAreaRenderer>();
+                    .AddTransient<ContentAreaRenderer, AlloyContentAreaRenderer>()
+                .AddTransient<IPlainPageService, PlainPageService>();
             };
         }
 
