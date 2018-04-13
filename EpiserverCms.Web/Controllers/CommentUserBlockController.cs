@@ -35,6 +35,8 @@ namespace EpiserverCms.Web.Controllers
             Identity id = store.Save(p);
              */
 
+            
+
             var pageRouteHelper = EPiServer.ServiceLocation.ServiceLocator.Current.GetInstance<EPiServer.Web.Routing.IPageRouteHelper>();
             var pageReference = pageRouteHelper.PageLink;
             var id = pageReference.ID;
@@ -44,7 +46,10 @@ namespace EpiserverCms.Web.Controllers
                 Name = Guid.NewGuid().ToString(),
                 CreatedDate = DateTime.Now
             };
-            //DynamicDataStore store = DynamicDataStoreFactory.Instance.CreateStore("Comment", typeof(PersonWithIDynamicData));
+
+            DynamicDataStore store = DynamicDataStoreFactory.Instance.CreateStore("Comment", typeof(PersonWithIDynamicData));
+            var loadedPerson = store.LoadAll<PersonWithIDynamicData>();
+
             //var id = store.Save(newPerson);
 
             return PartialView(model);
